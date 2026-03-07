@@ -1,0 +1,15 @@
+{
+  "name": "html-boilerplate-snippet",
+  "displayName": "HTML Boilerplate Inline Suggestion",
+  "description": "Shows HTML boilerplate as an inline ghost-text suggestion when you open an empty .html file",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onLanguage:html"
+  ],
+  "main": "./extension.js",
+  "contributes": {}
+}
